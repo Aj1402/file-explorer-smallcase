@@ -1,0 +1,5 @@
+export const CHANGE_PATH="CHANGE_PATH";
+export const MOVE_UP="MOVE_UP";
+export const CREATE_NEW_FILE_FOLDER="CREATE_NEW_FILE_FOLDER";
+export const DELETE_FILE_FOLDER="DELETE_FILE_FOLDER";
+export const SEARCH="SEARCH";

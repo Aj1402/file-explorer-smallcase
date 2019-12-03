@@ -1,0 +1,12 @@
+.appLayout {
+    flex-direction: row;
+    display: flex;
+    height: 100vh;
+}
+
+.appBody {
+    background: rgba(216,216,216,0.00);
+    flex: 9;
+    flex-direction: column;
+    padding: 20px;
+}

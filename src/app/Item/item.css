@@ -1,0 +1,34 @@
+.itemContainer {
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.itemContainer:hover:not(.newItem) {
+    background-color: #E6F5FF;
+}
+
+.thumbnail {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.imageCaption {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    transform: translate( -5%, -5% );
+    text-align: center;
+}
+
+img {
+    display: block;
+}

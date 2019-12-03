@@ -1,0 +1,129 @@
+{
+  "path": "/",
+  "name": "root",
+  "type": "folder",
+  "children": {
+    "apps": {
+      "path": "/apps",
+      "name": "apps",
+      "type": "folder",
+      "children": null,
+      "metadata": {
+        "createdBy": "Arjun",
+        "size": "100kb",
+        "createdDate": "2019-11-30"
+      }
+    },
+    "pictures": {
+      "path": "/pictures",
+      "name": "pictures",
+      "type": "folder",
+      "children": null,
+      "metadata": {
+        "createdBy": "Arjun",
+        "size": "100kb",
+        "createdDate": "2019-11-30"
+      }
+    },
+    "videos": {
+      "path": "/videos",
+      "name": "videos",
+      "type": "folder",
+      "children": null,
+      "metadata": {
+        "createdBy": "Arjun",
+        "size": "100kb",
+        "createdDate": "2019-11-30"
+      }
+    },
+    "docs": {
+      "path": "/docs",
+      "name": "docs",
+      "type": "folder",
+      "children": {
+        "work": {
+          "path": "/docs/work",
+          "name": "work",
+          "type": "folder",
+          "children": {
+            "e.pdf":{
+              "path": "/docs/work/e.pdf",
+              "name": "e.pdf",
+              "type": "file",
+              "metadata": {
+                "createdBy": "Arjun",
+                "size": "100kb",
+                "createdDate": "2019-11-30"
+              }
+            },
+            "f.ts": {
+              "path": "/docs/work/f.ts",
+              "name": "f.ts",
+              "type": "file",
+              "metadata": {
+                "createdBy": "Arjun",
+                "size": "100kb",
+                "createdDate": "2019-11-30"
+              }
+            }
+          },
+          "metadata": {
+            "createdBy": "Arjun",
+            "size": "100kb",
+            "createdDate": "2019-11-30"
+          }
+        },
+        "c.pdf": {
+          "path": "/docs/c.pdf",
+          "name": "c.pdf",
+          "type": "file",
+          "metadata": {
+            "createdBy": "Arjun",
+            "size": "100kb",
+            "createdDate": "2019-11-30"
+          }
+        },
+        "d.docx": {
+          "path": "/docs/d.docx",
+          "name": "d.docx",
+          "type": "file",
+          "metadata": {
+            "createdBy": "Arjun",
+            "size": "100kb",
+            "createdDate": "2019-11-30"
+          }
+        }
+      },
+      "metadata": {
+        "createdBy": "Arjun",
+        "size": "100kb",
+        "createdDate": "2019-11-30"
+      }
+    },
+    "a.pdf": {
+      "path": "/a.pdf",
+      "name": "a.pdf",
+      "type": "file",
+      "metadata": {
+        "createdBy": "Arjun",
+        "size": "100kb",
+        "createdDate": "2019-11-30"
+      }
+    },
+    "b.jpg": {
+      "path": "/b.jpg",
+      "name": "b.jpg",
+      "type": "file",
+      "metadata": {
+        "createdBy": "Arjun",
+        "size": "100kb",
+        "createdDate": "2019-11-30"
+      }
+    }
+  },
+  "metadata": {
+    "createdBy": "Arjun",
+    "size": "5mb",
+    "createdDate": "2019-11-30"
+  }
+}

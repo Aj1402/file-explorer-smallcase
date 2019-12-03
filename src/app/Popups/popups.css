@@ -1,0 +1,77 @@
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: 20px 20px;
+}
+
+.infoModalContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.textInput {
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #dde0e4;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.textInput:focus {
+  outline: none;
+}
+
+.submitBtn {
+  background: #4ab7ff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  margin-top: 20px;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.submitBtn:focus {
+  outline: none;
+}
+
+.infoContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding-bottom: 20px;
+}
+
+.keyValuePair {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.keyData,
+.valueData {
+  flex: 1 1 0px;
+}
+
+.keyData {
+    text-align: right;
+}
+
+.valueData {
+    text-align: left;
+}
+
+.submitBtn:disabled{
+  opacity: 0.4;
+}

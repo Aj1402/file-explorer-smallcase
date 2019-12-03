@@ -1,0 +1,251 @@
+.size-12 {
+  font-size: 12px;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+.size-16 {
+  font-size: 16px;
+}
+
+.size-18 {
+  font-size: 18px;
+}
+
+.size-24 {
+  font-size: 24px;
+}
+
+.font-family-apple {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+}
+
+.font-family-lato-regular {
+  font-family: Lato, sans-serif;
+  margin: 0;
+}
+
+.font-family-lato-bold {
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+.font-family-proxima-nova {
+  font-family: ProximaNova-Regular, sans-serif;
+  margin: 0;
+}
+
+.mainNavLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.linkDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.linkDetails:hover,
+.activeLink {
+  background-color: #eeeff1;
+}
+
+.icon {
+  justify-content: center;
+}
+
+.inverted {
+  transform: rotate(180deg);
+}
+
+.subMenu {
+  border-left: #eeeff1 solid 2px;
+  margin-left: 20px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.btn-icon {
+  display: flex;
+  border: none;
+  background: transparent;
+  padding: 5px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.btn-icon:hover:enabled {
+  transform: scale(1.1);
+}
+
+.btn-icon:disabled {
+  opacity: 0.5;
+}
+
+.navButton {
+  background: transparent;
+  border: none;
+  flex: 1;
+  text-align: left;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.segmentBtn:focus,
+.navButton:focus,
+.btn-icon:focus {
+  outline: none;
+}
+
+.contextMenu {
+  background: #ffffff;
+  border: 1px solid rgba(221, 224, 228, 0.5);
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.contextBtn {
+  background: transparent;
+  border: none;
+  padding: 10px 20px;
+  color: #535b62;
+  align-items: center;
+  text-align: left;
+}
+
+.contextBtn:hover {
+  background: #eeeff1;
+  border: 1px solid #eeeff1;
+}
+
+.deleteBtn {
+  color: #ff5942;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  backdrop-filter: blur(0.5px);
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 10;
+}
+
+.modalBody {
+  background: #ffffff;
+  border: 1px solid rgba(221, 224, 228, 0.7);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 20px 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  z-index: 20;
+}
+
+.modalHeader {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalCloseIcon {
+  margin: 0;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.segments {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  align-self: center;
+}
+
+.segmentBtn {
+  background: transparent;
+  border: 1px solid #dde0e4;
+  flex: 1 1 0px;
+  text-align: center;
+  padding: 5px 20px;
+  color: #535b62;
+}
+
+.segmentBtn:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.segmentBtn:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.activeSegment {
+  background: #4ab7ff;
+  border: 1px solid #4ab7ff;
+  color: #ffffff;
+}
+
+.searchBox {
+  display: inline-block;
+  font-size: 14px;
+  color: #afb2b6;
+  background: #ffffff;
+  border: 1px solid #dde0e4;
+  border-radius: 8px;
+  font-family: Lato, sans-serif;
+  padding: 5px 25px;
+}
+
+.searchDiv {
+  position: relative;
+}
+
+.searchDiv .searchImg {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 5px;
+  bottom: 0px;
+  left: 5px;
+  font-weight: 700;
+}
+
+.searchDiv .searchBox:focus{
+  outline: none;
+}
+
+.searchDiv .searchRemove {
+  position: absolute;
+  top: 5px;
+  bottom: 10px;
+  right: 10px;
+  font-weight: 700;
+}
